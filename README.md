@@ -28,10 +28,6 @@
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#learn-the-stacks">Learn the stack</a>
-    <ul>
-        <li><a href="#explore-templates">Explore templates</a></li>
-      </ul>
     </li>
   </ol>
 </details>
@@ -39,7 +35,7 @@
 ### Built With
 
 
-* [![Next][Next.js]][Next-url]
+* [![React][React.js]][React-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
