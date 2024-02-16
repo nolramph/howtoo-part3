@@ -1,26 +1,39 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom"
 
-function App() {
+//components
+import Nav from "./components/nav"
+import Home from "./pages/home"
+import HomeTopics from "./pages/hometopics"
+import AccordionPage from "./pages/accordion"
+import HamburgerMenu, { HamburgerWrapper } from "./components/mobile-nav"
+
+const App = () => {
+  const NavWrapper = () => {
+    const location = useLocation()
+
+    if (location.pathname === "/accordion") {
+      return <HamburgerMenu />
+    }
+
+    return (
+      <>
+        <HamburgerWrapper>
+          <HamburgerMenu />
+        </HamburgerWrapper>
+        <Nav />
+      </>
+    )
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <Router>
+      <NavWrapper />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/hometopics" element={<HomeTopics />} />
+        <Route path="/accordion" element={<AccordionPage />} />
+      </Routes>
+    </Router>
+  )
 }
 
-export default App;
+export default App
