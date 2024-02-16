@@ -1,46 +1,131 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
+<!-- PROJECT HEADER -->
+<br />
+<div align="center">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <h3 align="center">HowToo part 3 assessment</h3>
 
-## Available Scripts
+  <p align="center">
+    A simple assessment website to showcase application of
+    <a href="https://react.dev/"><strong>React</strong></a>
+  </p>
+</div>
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#how-to-use">How to use</a></li>
+      </ul>
+    </li>
+    <li><a href="#features">Features</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#learn-the-stacks">Learn the stack</a>
+    <ul>
+        <li><a href="#explore-templates">Explore templates</a></li>
+      </ul>
+    </li>
+  </ol>
+</details>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Built With
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* [![Next][Next.js]][Next-url]
 
-### `npm run build`
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<!-- GETTING STARTED -->
+## Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Prerequisites
 
-### `npm run eject`
+This is an example of how to list things you need to use the software and how to install them.
+* npm
+  ```sh
+  npm install
+  ```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## How to use
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Download the example [or clone the repo](https://github.com/nolramph/howtoo-part3):
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Install it and run:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```bash
+npm install
+npm run start
+```
 
-## Learn More
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<!-- FEATURES -->
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Features
+
+- Homepage (with Video page on initial load)
+- Home Topics
+- Accordion
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ROADMAP -->
+## Roadmap
+
+Version 1
+- [x] Add initial setup and scaffolding
+- [x] Add header, body and footer layout
+- [x] Add Left panel, full body background component
+- [x] Add Homepage
+- [x] Add Home Topics
+- [x] Add video player component
+- [x] Add Accordion component 
+- [x] Add arrow navigation component
+- [x] Add mobile navigation component
+- [x] Add responsive component(Optional)
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTACT -->
+## Contact
+
+Lon Peralta - [Facebook](https://www.facebook.com/lonong/) - marlon.peralta00@gmail.com 
+
+Project Link: [https://github.com/nolramph/howtoo-part3](https://github.com/nolramph/howtoo-part3)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Learn the stacks
+
+To learn more about this example:
+
+- [React](https://react.dev/) learn about React.
+- [Styled components](https://styled-components.com/) learn about Styled components.
+- [React icons](https://react-icons.github.io/react-icons/) learn about React icons
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-url]: https://reactjs.org/
